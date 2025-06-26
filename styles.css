@@ -75,6 +75,18 @@ a:hover {
   background-color: white;
   transition: 2s;
 }
+.contact-container form button:hover {
+  background-color: lightgray;
+  transition: 2s;
+}
+
+.home-container img:hover {
+  box-shadow: 0 10px 20px rgba(200, 200, 200, 0.8);
+}
+
+.about-picture img:hover {
+  box-shadow: 0 10px 20px rgba(200, 200, 200, 0.8);
+}
 
 /*kulay ng icons*/
 .fa-facebook {
@@ -141,6 +153,7 @@ html {
   height: 500px;
   margin-top: -430px;
   border-radius: 25px;
+  transition: box-shadow 0.2s ease;
 }
 
 a {
@@ -170,11 +183,12 @@ a {
   color: white;
 }
 
-.about-image img {
+.about-picture img {
   margin-left: 20vh;
   height: 500px;
   margin-top: -410px;
   border-radius: 25px;
+  transition: box-shadow 0.2s ease;
 }
 
 .about-container li {
