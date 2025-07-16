@@ -167,12 +167,15 @@ a {
 
 /*about section*/
 #about h1 {
-  margin-left: 670px;
+  margin-left: 620px;
   font-weight: bolder;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
   margin-top: -90px;
-  text-decoration: line-through;
+  text-decoration: underline double;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  letter-spacing: 15px;
 }
 
 .about-container h3 {
@@ -212,10 +215,13 @@ a {
 /*skills section*/
 #skills h1 {
   margin-top: -70px;
-  margin-left: 660px;
+  margin-left: 600px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
-  text-decoration: line-through;
+  text-decoration: underline double;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  letter-spacing: 15px;
   font-size: 40px;
 }
 
@@ -258,10 +264,13 @@ a {
 /*projects section*/
 #projects h1 {
   margin-top: -70px;
-  margin-left: 620px;
+  margin-left: 560px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
-  text-decoration: line-through;
+  text-decoration: underline double;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  letter-spacing: 15px;
   font-size: 40px;
 }
 .project-container {
@@ -304,10 +313,13 @@ a {
 /*certificate section*/
 #certificates h1 {
   margin-top: -70px;
-  margin-left: 590px;
+  margin-left: 470px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
-  text-decoration: line-through;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  letter-spacing: 20px;
   font-size: 40px;
 }
 
@@ -322,11 +334,14 @@ a {
 /*contact section*/
 #contacts h1 {
   margin-top: -70px;
-  margin-left: 620px;
+  margin-left: 550px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
-  text-decoration: line-through;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
   font-size: 40px;
+  letter-spacing: 20px;
 }
 
 form {
