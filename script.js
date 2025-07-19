@@ -1,4 +1,4 @@
-// Para sa credentials ko <:
+// Para sa credentials ko :>
 function downloadcred() {
   const link = document.createElement("a");
   link.href = "resume/vin.xyz-resume.pdf";
